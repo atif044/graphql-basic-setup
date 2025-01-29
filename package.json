@@ -1,0 +1,23 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/app.ts"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.7",
+    "graphql": "^16.10.0",
+    "mongoose": "^8.9.5"
+  },
+  "devDependencies": {
+    "@apollo/server": "^4.11.3",
+    "@graphql-tools/merge": "^9.0.17",
+    "@types/bcrypt": "^5.0.2",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
